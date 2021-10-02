@@ -1,0 +1,84 @@
+.alarm-ring-container {
+	overflow-x: hidden;
+	background-color: #000000;
+	height: 700px;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	text-align: center;
+	color: #ffffff;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	.time-date-container {
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		.time {
+			font-size: 48px;
+		}
+		.date {
+			opacity: 0.5;
+			font-size: 24px;
+		}
+	}
+	.ring-heading {
+		font-size: 2rem;
+	}
+	.alarm-label {
+		text-align: center;
+		font-size: 2rem;
+		color: #ffffff;
+	}
+	.time-label {
+		padding: 2rem;
+
+		.time {
+			font-size: 4rem;
+		}
+		.label {
+			font-size: 2rem;
+		}
+	}
+	.btn-container {
+		display: flex;
+		flex-direction: column;
+		margin: 3rem;
+		button {
+			width: 300px;
+			text-decoration: none;
+			text-align: center;
+			display: block;
+			border-radius: 5px;
+			line-height: 27px;
+			box-sizing: border-box;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			background: 0 0;
+			padding: 8px 10px;
+			white-space: nowrap;
+			position: relative;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-size: 14px;
+			font-family: inherit;
+			cursor: pointer;
+			outline: 0;
+			background: #fff;
+			margin: 1rem;
+		}
+		.snooze {
+			border: 1px solid #007aff;
+			color: #007aff;
+		}
+		.stop {
+			color: #007aff;
+			border-style: none;
+			background-color: inherit;
+		}
+	}
+}

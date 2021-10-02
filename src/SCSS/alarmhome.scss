@@ -1,0 +1,45 @@
+.alarmhome-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+
+	.time-date-container {
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		.time {
+			font-size: 48px;
+		}
+		.date {
+			opacity: 0.5;
+			font-size: 24px;
+		}
+	}
+	.existing-alram-container {
+		height: 367px;
+		width: 100%;
+		background-color: #efeff4;
+		.no-alarm-text {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}
+
+.alarm-action-container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	justify-content: space-between;
+	bottom: 0;
+	width: 100%;
+	background-color: #f7f7f8;
+}

@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.heading {
+	background-color: #f7f7f8;
+	height: 80px;
+	display: grid;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	font-size: 32px;
+}
+.alarm-btn {
+	cursor: pointer;
+	border-style: none;
+	font-size: 32px;
+	color: #005cc8;
+	height: 100%;
+	margin: 0 16px;
+	background-color: #f7f7f8;
+}
+.center-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	cursor: pointer;
+}
+
+@import './SCSS/alarmhome';
+@import './SCSS/alarmList';
+@import './SCSS/alarmAdd';
+@import './SCSS/alarmRing';
